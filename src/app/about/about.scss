@@ -1,0 +1,35 @@
+.about-hero {
+  height: 80vh;
+  background: #dff460;
+}
+
+.value-card {
+  background: white;
+  padding: 25px;
+  border-radius: 15px;
+  transition: 0.3s;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+}
+
+.value-card:hover {
+  transform: translateY(-8px);
+}
+
+.team-card {
+  background: #f8f9ff;
+  padding: 25px;
+  border-radius: 15px;
+}
+
+.testimonial-card {
+  background: #f8f9ff;
+  padding: 30px;
+  border-radius: 15px;
+  max-width: 600px;
+  margin: auto;
+}
+
+.cta-section {
+  padding: 80px 0;
+  background: #dff460;
+}

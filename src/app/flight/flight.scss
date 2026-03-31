@@ -1,0 +1,54 @@
+.flight-hero {
+  height: 90vh;
+  background: #dff460;
+}
+
+.flight-search-card {
+  background: white;
+  padding: 25px;
+  border-radius: 20px;
+  max-width: 900px;
+  box-shadow: 0 20px 50px rgba(0,0,0,0.2);
+}
+
+.destination-card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 15px;
+}
+
+.destination-card img {
+  transition: 0.5s;
+}
+
+.destination-card:hover img {
+  transform: scale(1.1);
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  color: white;
+  padding: 15px;
+}
+
+.flight-card {
+  background: white;
+  padding: 20px;
+  border-radius: 15px;
+  margin-bottom: 15px;
+  transition: 0.3s;
+}
+
+.flight-card:hover {
+  transform: translateY(-5px);
+}
+
+button:hover {
+  transform: translateY(-2px);
+  transition: 0.2s;
+}
+
+.flight-search-card:hover {
+  transform: scale(1.02);
+}

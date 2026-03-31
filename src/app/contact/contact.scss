@@ -1,0 +1,57 @@
+.contact-hero {
+  height: 60vh;
+  background: #dff460;
+}
+
+.contact-section {
+  background: #f8f9ff;
+}
+
+/* CONTACT CARDS */
+.contact-card {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  background: white;
+  padding: 15px;
+  border-radius: 12px;
+  margin-bottom: 15px;
+  transition: 0.3s;
+}
+
+.contact-card i {
+  font-size: 20px;
+  color: #2a5298;
+}
+
+.contact-card:hover {
+  transform: translateX(5px);
+}
+
+/* FORM */
+.contact-form {
+  background: rgba(255,255,255,0.8);
+  backdrop-filter: blur(10px);
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 20px 50px rgba(0,0,0,0.1);
+}
+
+/* BUTTON */
+button:hover {
+  transform: translateY(-2px);
+  transition: 0.2s;
+}
+
+.cta-strip {
+  padding: 50px 0;
+}
+
+.form-control:focus {
+  box-shadow: 0 0 10px rgba(42,82,152,0.3);
+  border-color: #2a5298;
+}
+
+.contact-form:hover {
+  transform: scale(1.01);
+}
