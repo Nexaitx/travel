@@ -1,12 +1,57 @@
-.work-section{
+.work-section {
     background-image: url('../../assets/img4.png');
     background-repeat: no-repeat;
     background-size: cover;
-    
+
 }
 
 .why-card-max {
     background-image: url('../../assets/img8.png');
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.hero-content {
+    position: absolute;
+    z-indeX: 1;
+    top: 40vh;
+    color: rgb(239, 237, 237) !important;
+    filter: drop-shadow(2px 4px 6px black);
+
+    h1 {
+        font-size: 4rem;
+    }
+
+    h4 {
+        font-size: 2rem;
+    }
+}
+
+
+.hero video{
+    width: 85vw;
+}
+@media (max-width: 768px) {
+    .travel-hero {
+        height: 85vh;
+    }
+
+    .hero-content {
+        top: 30vh;
+        width: 80%;
+
+        h1 {
+            font-size: 2.5rem;
+        }
+
+        h4 {
+            font-size: 1.2rem;
+        }
+    }
+
+    .hero {
+        video {
+            width: 90vw;
+        }
+    }
 }
